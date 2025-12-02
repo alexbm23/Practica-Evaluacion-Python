@@ -1,4 +1,5 @@
-🛡️ Proyecto de Evaluación UD1: Puesta en Producción SeguraCurso: Especialización en CiberseguridadAutor:Alejandro Barnestein Martos
+🛡️ Proyecto de Evaluación UD1: Puesta en Producción SeguraCurso: Especialización en Ciberseguridad
+Autor:Alejandro Barnestein Martos
 Fecha:  30 Noviembre 2025
 📝 Descripción General
 Este proyecto implementa las Tareas 2 a 5 de la Práctica de Evaluación de la Unidad 1, con un énfasis en la modularidad del código y la aplicación de pruebas unitarias robustas para garantizar que el software resiste entradas defectuosas o inesperadas (comportamiento no deseado)
@@ -46,3 +47,4 @@ estaEnRangoTipos IncompatiblesPrueba la comparación de int con list o str. Aseg
 estaEnListaArgumento No Lista (str, tuple, None)Confirma que el segundo argumento es estrictamente una lista, previniendo errores de método (AttributeError).
 Comando de Ejecución:python -m unittest tests.test_unittest
 Tarea 5: pytest (Parametrización y Eficiencia)Se utiliza pytest.mark.parametrize para ejecutar los mismos tests de robustez de forma más eficiente y limpia.Comando de Ejecución:python -m pytest tests/test_pytest.py
+
